@@ -1,0 +1,204 @@
+#---------------------------------------------------#
+## 上次更新于：2021-06-13 08:38:56
+#By@Gaohu
+#---------------------------------------------------#
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - name: 一键连账号1-香港1
+    server: a1.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "421385158789169152"
+    password: ca9a53bb-41c9-4880-97b4-9e1df6e29333
+    tls: true
+    skip-cert-verify: true
+  - name: 一键连账号1-香港2
+    server: global.ap.fastqvpn.com
+    port: 29984
+    type: http
+    username: "421385158789169152"
+    password: ca9a53bb-41c9-4880-97b4-9e1df6e29333
+    tls: true
+    skip-cert-verify: true
+  - name: 一键连账号2-香港1
+    server: a1.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "453682076747563008"
+    password: 3856fc1b-c0b1-46bb-9b6f-cf07370f26ec
+    tls: true
+    skip-cert-verify: true
+  - name: 一键连账号2-香港2
+    server: global.ap.fastqvpn.com
+    port: 29984
+    type: http
+    username: "453682076747563008"
+    password: 3856fc1b-c0b1-46bb-9b6f-cf07370f26ec
+    tls: true
+    skip-cert-verify: true
+  - name: 一键连账号3-香港1
+    server: a1.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "454910613689204736"
+    password: eb9846bc-4792-4e1a-9eec-9e92b7470f91
+    tls: true
+    skip-cert-verify: true
+  - name: 一键连账号3-香港2
+    server: global.ap.fastqvpn.com
+    port: 29984
+    type: http
+    username: "454910613689204736"
+    password: eb9846bc-4792-4e1a-9eec-9e92b7470f91
+    tls: true
+    skip-cert-verify: true
+  - name: 一键连账号1-日本1
+    server: global.ap.fastqvpn.com
+    port: 29987
+    type: http
+    username: "421385158789169152"
+    password: ca9a53bb-41c9-4880-97b4-9e1df6e29333
+    tls: true
+    skip-cert-verify: true
+  - name: 一键连账号1-日本2
+    server: global.ap.fastqvpn.com
+    port: 29988
+    type: http
+    username: "421385158789169152"
+    password: ca9a53bb-41c9-4880-97b4-9e1df6e29333
+    tls: true
+    skip-cert-verify: true
+  - name: 一键连账号2-日本1
+    server: global.ap.fastqvpn.com
+    port: 29987
+    type: http
+    username: "453682076747563008"
+    password: 3856fc1b-c0b1-46bb-9b6f-cf07370f26ec
+    tls: true
+    skip-cert-verify: true
+  - name: 一键连账号2-日本2
+    server: global.ap.fastqvpn.com
+    port: 29988
+    type: http
+    username: "453682076747563008"
+    password: 3856fc1b-c0b1-46bb-9b6f-cf07370f26ec
+    tls: true
+    skip-cert-verify: true
+  - name: 一键连账号3-日本1
+    server: global.ap.fastqvpn.com
+    port: 29987
+    type: http
+    username: "454910613689204736"
+    password: eb9846bc-4792-4e1a-9eec-9e92b7470f91
+    tls: true
+    skip-cert-verify: true
+  - name: 一键连账号3-日本2
+    server: global.ap.fastqvpn.com
+    port: 29988
+    type: http
+    username: "454910613689204736"
+    password: eb9846bc-4792-4e1a-9eec-9e92b7470f91
+    tls: true
+    skip-cert-verify: true
+  - name: 一键连账号1-新加坡
+    server: global.ap.fastqvpn.com
+    port: 29982
+    type: http
+    username: "421385158789169152"
+    password: ca9a53bb-41c9-4880-97b4-9e1df6e29333
+    tls: true
+    skip-cert-verify: true
+  - name: 一键连账号2-新加坡
+    server: global.ap.fastqvpn.com
+    port: 29982
+    type: http
+    username: "453682076747563008"
+    password: 3856fc1b-c0b1-46bb-9b6f-cf07370f26ec
+    tls: true
+    skip-cert-verify: true
+  - name: 一键连账号3-新加坡
+    server: global.ap.fastqvpn.com
+    port: 29982
+    type: http
+    username: "454910613689204736"
+    password: eb9846bc-4792-4e1a-9eec-9e92b7470f91
+    tls: true
+    skip-cert-verify: true
+  - name: 一键连账号1-英国
+    server: global.ap.fastqvpn.com
+    port: 29983
+    type: http
+    username: "421385158789169152"
+    password: ca9a53bb-41c9-4880-97b4-9e1df6e29333
+    tls: true
+    skip-cert-verify: true
+  - name: 一键连账号2-英国
+    server: global.ap.fastqvpn.com
+    port: 29983
+    type: http
+    username: "453682076747563008"
+    password: 3856fc1b-c0b1-46bb-9b6f-cf07370f26ec
+    tls: true
+    skip-cert-verify: true
+  - name: 一键连账号3-英国
+    server: global.ap.fastqvpn.com
+    port: 29983
+    type: http
+    username: "454910613689204736"
+    password: eb9846bc-4792-4e1a-9eec-9e92b7470f91
+    tls: true
+    skip-cert-verify: true
+  - name: 一键连账号1-韩国
+    server: global.ap.fastqvpn.com
+    port: 29985
+    type: http
+    username: "421385158789169152"
+    password: ca9a53bb-41c9-4880-97b4-9e1df6e29333
+    tls: true
+    skip-cert-verify: true
+  - name: 一键连账号2-韩国
+    server: global.ap.fastqvpn.com
+    port: 29985
+    type: http
+    username: "453682076747563008"
+    password: 3856fc1b-c0b1-46bb-9b6f-cf07370f26ec
+    tls: true
+    skip-cert-verify: true
+  - name: 一键连账号3-韩国
+    server: global.ap.fastqvpn.com
+    port: 29985
+    type: http
+    username: "454910613689204736"
+    password: eb9846bc-4792-4e1a-9eec-9e92b7470f91
+    tls: true
+    skip-cert-verify: true
+proxy-groups:
+  - name: '✈️ 手动选择'
+    type: select
+    proxies:
+      - 一键连账号1-香港1
+      - 一键连账号1-香港2
+      - 一键连账号2-香港1
+      - 一键连账号2-香港2
+      - 一键连账号3-香港1
+      - 一键连账号3-香港2
+      - 一键连账号1-日本1
+      - 一键连账号1-日本2
+      - 一键连账号2-日本1
+      - 一键连账号2-日本2
+      - 一键连账号3-日本1
+      - 一键连账号3-日本2
+      - 一键连账号1-新加坡
+      - 一键连账号2-新加坡
+      - 一键连账号3-新加坡
+      - 一键连账号1-英国
+      - 一键连账号2-英国
+      - 一键连账号3-英国
+      - 一键连账号1-韩国
+      - 一键连账号2-韩国
+      - 一键连账号3-韩国
