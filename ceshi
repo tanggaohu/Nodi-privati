@@ -17,8 +17,17 @@ proxies:
     password: ca9a53bb-41c9-4880-97b4-9e1df6e29666
     tls: true
     skip-cert-verify: true
+      - name: 一键连账号1-香港2
+    server: a1.ap.fastq.com
+    port: 29983
+    type: http
+    username: "421385158789169351"
+    password: ca9a53bb-41c9-4880-97b4-9e1df5e29666
+    tls: true
+    skip-cert-verify: true
 proxy-groups:
   - name: '✈️ 手动选择'
     type: select
     proxies:
       - 一键连账号1-香港1
+      - 一键连账号1-香港2
