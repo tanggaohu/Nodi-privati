@@ -1,5 +1,5 @@
 #---------------------------------------------------#
-## 上次更新于：2021-06-14 11:38:56
+## 上次更新于：2021-06-14 14:07:56
 #By@Gaohu
 #---------------------------------------------------#
 port: 7890
@@ -29,32 +29,16 @@ proxies:
     server: a1.ap.fastqvpn.com
     port: 29980
     type: http
-    username: "453682076747563008"
-    password: 3856fc1b-c0b1-46bb-9b6f-cf07370f26ec
+    username: "453683224338497536"
+    password: f2a92e5f-5229-46ca-919e-4c0b291a0e07
     tls: true
     skip-cert-verify: true
   - name: 一键连账号2-香港2
     server: global.ap.fastqvpn.com
     port: 29984
     type: http
-    username: "453682076747563008"
-    password: 3856fc1b-c0b1-46bb-9b6f-cf07370f26ec
-    tls: true
-    skip-cert-verify: true
-  - name: 一键连账号3-香港1
-    server: a1.ap.fastqvpn.com
-    port: 29980
-    type: http
-    username: "454910613689204736"
-    password: eb9846bc-4792-4e1a-9eec-9e92b7470f91
-    tls: true
-    skip-cert-verify: true
-  - name: 一键连账号3-香港2
-    server: global.ap.fastqvpn.com
-    port: 29984
-    type: http
-    username: "454910613689204736"
-    password: eb9846bc-4792-4e1a-9eec-9e92b7470f91
+    username: "453683224338497536"
+    password: f2a92e5f-5229-46ca-919e-4c0b291a0e07
     tls: true
     skip-cert-verify: true
   - name: 一键连账号1-日本1
@@ -77,32 +61,16 @@ proxies:
     server: global.ap.fastqvpn.com
     port: 29987
     type: http
-    username: "453682076747563008"
-    password: 3856fc1b-c0b1-46bb-9b6f-cf07370f26ec
+    username: "453683224338497536"
+    password: f2a92e5f-5229-46ca-919e-4c0b291a0e07
     tls: true
     skip-cert-verify: true
   - name: 一键连账号2-日本2
     server: global.ap.fastqvpn.com
     port: 29988
     type: http
-    username: "453682076747563008"
-    password: 3856fc1b-c0b1-46bb-9b6f-cf07370f26ec
-    tls: true
-    skip-cert-verify: true
-  - name: 一键连账号3-日本1
-    server: global.ap.fastqvpn.com
-    port: 29987
-    type: http
-    username: "454910613689204736"
-    password: eb9846bc-4792-4e1a-9eec-9e92b7470f91
-    tls: true
-    skip-cert-verify: true
-  - name: 一键连账号3-日本2
-    server: global.ap.fastqvpn.com
-    port: 29988
-    type: http
-    username: "454910613689204736"
-    password: eb9846bc-4792-4e1a-9eec-9e92b7470f91
+    username: "453683224338497536"
+    password: f2a92e5f-5229-46ca-919e-4c0b291a0e07
     tls: true
     skip-cert-verify: true
   - name: 一键连账号1-新加坡
@@ -117,16 +85,8 @@ proxies:
     server: global.ap.fastqvpn.com
     port: 29982
     type: http
-    username: "453682076747563008"
-    password: 3856fc1b-c0b1-46bb-9b6f-cf07370f26ec
-    tls: true
-    skip-cert-verify: true
-  - name: 一键连账号3-新加坡
-    server: global.ap.fastqvpn.com
-    port: 29982
-    type: http
-    username: "454910613689204736"
-    password: eb9846bc-4792-4e1a-9eec-9e92b7470f91
+    username: "453683224338497536"
+    password: f2a92e5f-5229-46ca-919e-4c0b291a0e07
     tls: true
     skip-cert-verify: true
   - name: 一键连账号1-美国
@@ -141,16 +101,8 @@ proxies:
     server: global.ap.fastqvpn.com
     port: 29983
     type: http
-    username: "453682076747563008"
-    password: 3856fc1b-c0b1-46bb-9b6f-cf07370f26ec
-    tls: true
-    skip-cert-verify: true
-  - name: 一键连账号3-美国
-    server: global.ap.fastqvpn.com
-    port: 29983
-    type: http
-    username: "454910613689204736"
-    password: eb9846bc-4792-4e1a-9eec-9e92b7470f91
+    username: "453683224338497536"
+    password: f2a92e5f-5229-46ca-919e-4c0b291a0e07
     tls: true
     skip-cert-verify: true
   - name: 一键连账号1-韩国
@@ -165,16 +117,8 @@ proxies:
     server: global.ap.fastqvpn.com
     port: 29985
     type: http
-    username: "453682076747563008"
-    password: 3856fc1b-c0b1-46bb-9b6f-cf07370f26ec
-    tls: true
-    skip-cert-verify: true
-  - name: 一键连账号3-韩国
-    server: global.ap.fastqvpn.com
-    port: 29985
-    type: http
-    username: "454910613689204736"
-    password: eb9846bc-4792-4e1a-9eec-9e92b7470f91
+    username: "453683224338497536"
+    password: f2a92e5f-5229-46ca-919e-4c0b291a0e07
     tls: true
     skip-cert-verify: true
 proxy-groups:
@@ -185,23 +129,16 @@ proxy-groups:
       - 一键连账号1-香港2
       - 一键连账号2-香港1
       - 一键连账号2-香港2
-      - 一键连账号3-香港1
-      - 一键连账号3-香港2
       - 一键连账号1-日本1
       - 一键连账号1-日本2
       - 一键连账号2-日本1
       - 一键连账号2-日本2
-      - 一键连账号3-日本1
-      - 一键连账号3-日本2
       - 一键连账号1-新加坡
       - 一键连账号2-新加坡
-      - 一键连账号3-新加坡
       - 一键连账号1-美国
       - 一键连账号2-美国
-      - 一键连账号3-美国
       - 一键连账号1-韩国
       - 一键连账号2-韩国
-      - 一键连账号3-韩国
   -
     name: '🌀 负载均衡'
     type: select
@@ -366,8 +303,6 @@ proxy-groups:
       - 一键连账号1-香港2
       - 一键连账号2-香港1
       - 一键连账号2-香港2
-      - 一键连账号3-香港1
-      - 一键连账号3-香港2
     url: 'http://www.gstatic.com/generate_204'
     interval: '600'
   -
@@ -378,8 +313,6 @@ proxy-groups:
       - 一键连账号1-日本2
       - 一键连账号2-日本1
       - 一键连账号2-日本2
-      - 一键连账号3-日本1
-      - 一键连账号3-日本2
     url: 'http://www.gstatic.com/generate_204'
     interval: '600'
   -
@@ -388,7 +321,6 @@ proxy-groups:
     proxies:
       - 一键连账号1-新加坡
       - 一键连账号2-新加坡
-      - 一键连账号3-新加坡
     url: 'http://www.gstatic.com/generate_204'
     interval: '600'
   -
@@ -397,7 +329,6 @@ proxy-groups:
     proxies:
       - 一键连账号1-美国
       - 一键连账号2-美国
-      - 一键连账号3-美国
     url: 'http://www.gstatic.com/generate_204'
     interval: '600'
   -
@@ -406,7 +337,6 @@ proxy-groups:
     proxies:
       - 一键连账号1-韩国
       - 一键连账号2-韩国
-      - 一键连账号3-韩国
     url: 'http://www.gstatic.com/generate_204'
     interval: '600'
       
