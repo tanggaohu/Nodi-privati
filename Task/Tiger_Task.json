@@ -1,5 +1,5 @@
 {
-  "name": "JD_Task",
+  "name": "自用签到",
   "description": "瘦瘦的老虎",
   "task": [
     	"0 9 * * * https://raw.githubusercontent.com/tanggaohu/Nodi-privati/main/Task/iQIYI.js, tag=爱奇艺签到, img-url=https://raw.githubusercontent.com/tanggaohu/Nodi-privati/master/PNG/iqiyi.png, enabled=true",
