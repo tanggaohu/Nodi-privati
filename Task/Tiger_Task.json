@@ -1,6 +1,6 @@
 {
   "name": "JD_Task",
-  "description": "瘦瘦的老虎自用",
+  "description": "瘦瘦的老虎",
   "task": [
     	"0 9 * * * https://raw.githubusercontent.com/tanggaohu/Nodi-privati/main/Task/iQIYI.js, tag=爱奇艺签到, img-url=https://raw.githubusercontent.com/tanggaohu/Nodi-privati/master/PNG/iqiyi.png, enabled=true",
         "0 8 * * * https://raw.githubusercontent.com/tanggaohu/Nodi-privati/main/Task/52pojie.js, tag=吾爱破解签到, img-url=https://raw.githubusercontent.com/tanggaohu/Nodi-privati/master/PNG/52pojie.cn.png, enabled=true",
