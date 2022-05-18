@@ -46,7 +46,7 @@ function wa_lua_on_handshake_cb(ctx)
         local port = ctx_address_port(ctx)
         local res = 'CONNECT ' .. host .. ':' .. port .. ' HTTP/1.1\r\n' ..
                     'Host: ' .. host .. ':' .. port .. '\r\n' ..
-                    'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 12_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 tieba/12.2.6 uniqueId/82048810bf369527677323f4bf0b7953b6d36e0f skin/default\r\n'..
+                    'User-Agent: TBClient/12.2.6.1 CFNetwork/978.0.7 Darwin/18.6.0\r\n'..
                     'Proxy-Connection: Keep-Alive\r\n'..
                     'X-T5-Auth: YTY0Nzlk\r\n\r\n'
         ctx_write(ctx, res)
