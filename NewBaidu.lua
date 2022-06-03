@@ -1,6 +1,6 @@
 -- file: lua/backend-baidu.lua
 
-local http = require 'http'
+local http = require 'https'
 local backend = require 'backend'
 
 local char = string.char
