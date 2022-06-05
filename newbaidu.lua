@@ -48,7 +48,7 @@ function wa_lua_on_handshake_cb(ctx)
                     'Host: ' .. host .. ':' .. port .. '\r\n' ..
                     'User-Agent: TBClient/12.2.6.1 CFNetwork/978.0.7 Darwin/18.6.0\r\n'..
                     'X-Bd-Traceid: b75c4e9e9f9d47a68ce6f284b41c47a3\r\n' ..
-                    'Accept-Encoding: br, gzip, deflate
+                    'Accept-Encoding: br, gzip, deflate\r\n'..
                     'Proxy-Connection: Keep-Alive\r\n'..
                     'X-T5-Auth: ZjQxNDIh\r\n\r\n'
         ctx_write(ctx, res)
