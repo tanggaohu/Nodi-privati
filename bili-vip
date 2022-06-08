@@ -1,1 +1,1 @@
-^http[s]?:\/\/((app|api)\.(\w{2,15})?\.(com|cn|net|org)).*(playurl|player|reply)?\.(v3|v2|v1)\.(View|Reply|Play(URL|View|Conf)).*$ url script-request-header https://gist.githubusercontent.com/ddgksf2013/8509ff4c328943eeb7370801e408cb2e/raw/bili.vip
+^http[s]?:\/\/((app|api)\.(\w{2,15})?\.(com|cn|net|org)).*(playurl|player|reply)?\.(v3|v2|v1)\.(View|Reply|Play(URL|View|Conf)).*$ url script-request-header https://raw.githubusercontent.com/tanggaohu/Nodi-privati/main/bili.vip
