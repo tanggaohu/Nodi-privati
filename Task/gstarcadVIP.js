@@ -8,11 +8,11 @@
 [rewrite_local]
 
 # ～ CAD看图王解锁会员权限（2022-10-29）@Skinny Tiger
-https?:\/\/.*\.aoscdn\.com\/base\/vip\/client\/authorizations$ url script-response-body https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Crack/apowersoft.js
+https?:\/\/user\.gstarcad\.com\/api\/v2\/userinfo$ url script-response-body https://raw.githubusercontent.com/tanggaohu/Nodi-privati/main/Task/gstarcadVIP.js
 
 [mitm] 
 
-hostname=*.aoscdn.com
+hostname=user.gstarcad.com
 
 ***********************************/
 
