@@ -6,13 +6,15 @@
 [rewrite_local]
 
 # ～ CAD看图王解锁会员权限（2022-10-29）
-^https:\/\/user\.gstarcad\.com\/api\/v2\/userlnfo url script-response-body https://raw.githubusercontent.com/tanggaohu/Nodi-privati/main/Task/gstarcadVIP.conf
+https:\/\/user\.gstarcad\.com\/api\/v2\/userlnfo url script-response-body https://raw.githubusercontent.com/tanggaohu/Nodi-privati/main/Task/gstarcadVIP.js
 
 [mitm] 
 
 hostname=user.gstarcad.com
 
 ***********************************/
+
+
 var body = {
   "code": "0",
   "msg": "",
