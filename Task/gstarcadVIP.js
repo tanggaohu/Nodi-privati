@@ -14,7 +14,8 @@ hostname=user.gstarcad.com
 
 ***********************************/
 
-{
+$done({body: JSON.stringify = 
+  {
   "code": "0",
   "msg": "",
   "rs": {
@@ -87,4 +88,3 @@ hostname=user.gstarcad.com
   },
   "status": true
 }
-$done({body});
