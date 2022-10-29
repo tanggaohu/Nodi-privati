@@ -90,4 +90,4 @@ var SkinnyTiger = {
   },
   "status": true
 }
-$done({body: JSON.stringify(SkinnyTiger)});
+$done({ SkinnyTiger });
