@@ -14,8 +14,7 @@ hostname=user.gstarcad.com
 
 ***********************************/
 
-
-body = {
+{
   "code": "0",
   "msg": "",
   "rs": {
