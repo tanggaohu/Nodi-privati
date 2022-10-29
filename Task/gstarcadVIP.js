@@ -8,7 +8,7 @@
 [rewrite_local]
 
 # ～ CAD看图王解锁会员权限（2022-10-29）@Skinny Tiger
-https?:\/\/user\.gstarcad\.com\/api\/v2\/userinfo$ url script-response-body https://raw.githubusercontent.com/tanggaohu/Nodi-privati/main/Task/gstarcadVIP.js
+https?:\/\/user\.gstarcad\.com\/api\/v2\/userinfo\/ url script-response-body https://raw.githubusercontent.com/tanggaohu/Nodi-privati/main/Task/gstarcadVIP.js
 
 [mitm] 
 
@@ -17,7 +17,7 @@ hostname=user.gstarcad.com
 ***********************************/
 
 
-var SkinnyTiger = {
+var body = {
   "code": "0",
   "msg": "",
   "rs": {
@@ -91,4 +91,4 @@ var SkinnyTiger = {
   "status": true
   }
 };
-$done({body: JSON.stringify(SkinnyTiger)});
+$done({ body });
