@@ -15,7 +15,7 @@ hostname=user.gstarcad.com
 ***********************************/
 
 
-boby = {
+body = {
   "code": "0",
   "msg": "",
   "rs": {
@@ -88,3 +88,4 @@ boby = {
   },
   "status": true
 }
+$done({body});
