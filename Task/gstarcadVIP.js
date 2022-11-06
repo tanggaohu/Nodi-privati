@@ -7,7 +7,7 @@
  
 [rewrite_local]
 # ～ CAD看图王解锁会员权限（2022-10-29）@Skinny Tiger
-https?:\/\/user\.gstarcad\.com\/api/v2/userInfo$ url script-response-body https://raw.githubusercontent.com/tanggaohu/Nodi-privati/main/Task/gstarcadVIP.js
+https?:\/\/user\.gstarcad\.com\/api/v2/userInfo\/ url script-response-body https://raw.githubusercontent.com/tanggaohu/Nodi-privati/main/Task/gstarcadVIP.js
 [mitm] 
 hostname=user.gstarcad.com
 ***********************************/
