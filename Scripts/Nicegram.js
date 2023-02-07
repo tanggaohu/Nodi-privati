@@ -1,1 +1,5 @@
-p
+{
+  "data": {
+    "premiumAccess": true
+  }
+}
