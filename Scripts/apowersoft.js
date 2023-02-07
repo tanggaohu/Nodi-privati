@@ -36,7 +36,7 @@ var SkinnyTiger = {
     "will_expire" : 0,
     "license_type" : "premium",
     "begin_activated_time" : 1645798296,
-    "durations" : 10800,
+    "durations" : 108000,
     "vip_special" : 1
   }
 };
