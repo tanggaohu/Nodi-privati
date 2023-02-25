@@ -13,5 +13,5 @@ hostname = *faceu*,*retouchpics*,*.ulikecam.com
 ***********************************/
 
 
-body = $response.body.replace(/"is_vip":\w+/g, '"is_vip":true').replace(/"end_time":\d+/g, '"end_time":4102415999');
+body = $response.body.replace(/"is_vip":\w+/g, '"is_vip":true').replace(/"space_end":\d+/g, '"space_end":4102415999');
 $done({ body });
