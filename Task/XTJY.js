@@ -12,10 +12,5 @@
 hostname = *faceu*,*retouchpics*,*.ulikecam.com
 ***********************************/
 
-let body= $response.body; 
-var obj = JSON.parse(body); 
-obj.data.is_vip = true;
-$done({body: JSON.stringify(obj)});
-
-/***body = $response.body.replace(/"is_vip":\w+/g, '"is_vip":true');
-/***$done({ body });
+body = $response.body.replace(/"is_vip":\w+/g, '"is_vip":true');
+$done({ body });
