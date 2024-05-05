@@ -64,7 +64,12 @@ const checkAndChouJiang = async (request) => {
   try {
     let response = await axios(request);
     let body = response.data;
-    let mianFeiChouNums = body.match(/mianFeiChouNums":"(\d+)"/)[1];
+    // 确保body是一个字符串
+    if (typeof body === 'object') {
+      body = JSON.stringify(body);
+    }
+    let mianFeiChouNumsMatch = body.match(/mianFeiChouNums":"(\d+)"/);
+    let mianFeiChouNums = mianFeiChouNumsMatch ? mianFeiChouNumsMatch[1] : "0";
     if (parseInt(mianFeiChouNums) > 0) {
       let newAccount = {Phone: accounts[accountIndex].Phone, query: accounts[accountIndex].query};
       let chouJiangRequest = createRequest(chouJiangURL, newAccount);
@@ -72,7 +77,12 @@ const checkAndChouJiang = async (request) => {
         try {
           let response = await axios(chouJiangRequest);
           let body = response.data;
-          let name = body.match(/NAME":"(.*?)"/)[1];
+          // 确保body是一个字符串
+          if (typeof body === 'object') {
+            body = JSON.stringify(body);
+          }
+          let nameMatch = body.match(/NAME":"(.*?)"/);
+          let name = nameMatch ? nameMatch[1] : "未知";
           console.log(`手机号码： ${accounts[accountIndex].Phone} 抽奖结果: ${name}`);
           // 这里需要替换为青龙平台的通知方式
           let newAccount = {Phone: accounts[accountIndex].Phone, query: accounts[accountIndex].query};
