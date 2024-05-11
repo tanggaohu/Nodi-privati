@@ -29,15 +29,16 @@ async function fetchRequest(url, body) {
 }
 
 async function performRequests() {
-  // 快速连续执行5次请求
+  // 执行新增的请求5次
   for (let i = 0; i < 5; i++) {
     const newTaskSubmitResponse = await fetchRequest(taskSubmitUrl, newTaskSubmitBody);
     if (newTaskSubmitResponse) {
+      let msg = newTaskSubmitResponse.data.msg;
+      let data = newTaskSubmitResponse.data.data;
       console.log(`骑行保平安任务提交 ${i+1}: ` + newTaskSubmitResponse.status + "\n\n" + JSON.stringify(newTaskSubmitResponse.data));
       // 这里添加您的通知处理逻辑
     }
   }
 }
 
-// 每62秒调用一次performRequests函数
-setInterval(performRequests, 62000);
+setInterval(performRequests,62000);
