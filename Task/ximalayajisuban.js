@@ -2,18 +2,17 @@
  *
  *
 脚本功能：喜马拉雅极速版
-软件版本：3.0.35以下才有效!!
+软件版本：3.0.35(不含)以下才有效!!
 下载地址：
 脚本作者：
 更新时间：25年0323
-电报频道：https://t.me/GieGie777
 问题反馈：
 使用声明：此脚本仅供学习与交流，请在下载使用24小时内删除！请勿在中国大陆转载与贩卖！
 *******************************
 [rewrite_local]
 # >喜马拉雅极速版
-^https?:\/\/.+ximalaya.com\/(fmobile-user\/homePage|pizza-category\/mypage\/operation)\/ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/ximalayajisuban.js
-^https?:\/\/.+ximalaya.com\/(fmobile-track\/fmobile\/track\/playpage|mobile\/track\/pay)\/ url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/ximalayajisuban.js
+^https?:\/\/.+ximalaya.com\/(fmobile-user\/homePage|pizza-category\/mypage\/operation)\/ url script-response-body https://github.com/tanggaohu/Nodi-privati/blob/main/Task/ximalayajisuban.js
+^https?:\/\/.+ximalaya.com\/(fmobile-track\/fmobile\/track\/playpage|mobile\/track\/pay)\/ url script-request-header https://github.com/tanggaohu/Nodi-privati/blob/main/Task/ximalayajisuban.js
 ^https?://adse\.wsa\.ximalaya\.com/ url reject-dict
 ^https?://passport\.ximalaya\.com/user-http-app/v1/token/refresh url reject-dict
 ^https?://adse\.ximalaya\.com url reject-dict
