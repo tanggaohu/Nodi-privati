@@ -9,7 +9,7 @@
 [rewrite_local]
 # >电视果
 [rewrite_remote]
-^https?:\/\/(m|static|oaa|pub\.m|security|vinfo\.vip|t7z\.cupid|l-rcd|cache\.video|mus|tpa-video|aliyuncoccdncnc-hd\.inter|cmonitor|dx-baiducdncnc\.inter)\.iqiyi\.com\/.* url script-request-header iqiyi_cookie_modify.js
+^https?:\/\/(m|static|oaa|pub\.m|security|vinfo\.vip|t7z\.cupid|l-rcd|cache\.video|mus|tpa-video|aliyuncoccdncnc-hd\.inter|cmonitor|dx-baiducdncnc\.inter)\.iqiyi\.com\/.* url script-request-header dsg.js
 [mitm]
 hostname = m.iqiyi.com, static.iqiyi.com, oaa.iqiyi.com, pub.m.iqiyi.com, security.iqiyi.com, vinfo.vip.iqiyi.com, t7z.cupid.iqiyi.com, l-rcd.iqiyi.com, cache.video.iqiyi.com, mus.video.iqiyi.com, tpa-video.iqiyi.com, aliyuncoccdncnc-hd.inter.iqiyi.com, cmonitor.iqiyi.com, dx-baiducdncnc.inter.iqiyi.com,
 
